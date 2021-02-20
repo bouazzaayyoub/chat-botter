@@ -14,8 +14,8 @@ from urllib.request import urlopen
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%capture
-#nltk.download('punkt')
-#nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('wordnet')
 
 """# Useful functions
 
@@ -54,11 +54,9 @@ lemmatizer = lambda word: ar_lemmatizer(fr_lemmatizer(eng_lemmatizer(remove_dupl
 lemmatizer("السلااام"),lemmatizer("donne"),lemmatizer("yeeux")
 
 """# Importing dataset"""
-#lire le fichier answers
-with open('intents.json', 'r', encoding='utf8', errors='ignore') as fin:
-    data_file = fin.read().lower()
-intents = json.loads(data_file) #dataset_JsonParser
 
+data_file = urlopen('https://raw.githubusercontent.com/DadiAnas/AI-Chatbot-FlaskServer/master/datasets/intents.json').read() #dataset_import
+intents = json.loads(data_file) #dataset_JsonParser
 
 """#Preparing Dataset
 

@@ -7,6 +7,9 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 sklearn = "^0.0"
+keras = "^2.4.3"
+en-core-web-sm-mirror = "^2.2.5"
+spacy = "^3.0.3"
 
 [tool.poetry.dev-dependencies]
 
