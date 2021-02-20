@@ -1,1196 +1,412 @@
 {
-  "intents": [
-    {
-      "tag": "email zaydi",
-      "patterns": [
-         "adresse zaydi"
-        ,
-         "mail zaydi"
-      ],
-      "responses": [
-         "zaydi.hayat@gmail.com"  
-        ,
-         "zaydi@enim.ac.ma"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "email lazraq",
-      "patterns": [
-         "adresse lazraq"
-        ,
-         "mail lazraq"
-        
-      ],
-      "responses": [
-         "tplazraq@gmail.com"
-        ,
-         "lazraq@enim.ac.ma"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "email tikito",
-      "patterns": [
-         "adresse tikito"
-        ,
-         "mail tikito"
-        
-      ],
-      "responses": [
-         
-  
-         "tikito@enim.ac.ma"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "email lebbar",
-      "patterns": [
-         "adresse lebbar"
-        ,
-         "mail lebbar"
-        
-      ],
-      "responses": [
-         
-         "lebbar@enim.ac.ma"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "email lazaar",
-      "patterns": [
-         "adresse lazaar"
-        ,
-         "mail lazaar"  
-      ],
-      "responses": [
-         "mohamed.lazaar@um5.ac.ma"  
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "email assoul",
-      "patterns": [
-         "adresse assoul"
-        ,
-         "mail assoul"  
-      ],
-      "responses": [
-         "assoul@enim.ac.ma"  
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "deadline projet ",
-      "patterns": [
-         "المستفيدين من المنح"
-         
-      ],
-      "responses": [
-         "دأت وزارة الاقتصاد والمالية  توزيع دعم مالي يبلغ 2000 درهم (نحو 200 دولار) شهريا مخصصة لأكثر من 800 ألف من العاملين في القطاع المنظم أعلنوا توقفهم عن العمل، بحسب معطيات رسمية"
-        ,
-         "لجأت الوزارة في مرحلة أولى إلى سجل خدمة التأمين الصحي للمعوزين المعمول به منذ 2011، لتحديد المستحقين الذين بدأوا تسلم هذا الدعم خلال  من بعض المصارف بعد تلقيهم رسالة هاتفية تؤكد قبول طلباتهم."
-        ,
-         "تعين على باقي المتضررين التصريح بالشرف على موقع إلكتروني خاص بتوقفهم عن العمل في القطاع غير المنظم بسبب الحجر الصحي، على أن يتسنى لهم تسلم الدعم ابتداء من 16 نيسان/أبريل."
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_is_death",
-      "patterns": [
-         "واش غنموت الى مرضت بكورونا"
-        ,
-         "كيقتل الاطفال"
-        ,
-         "kayqtl"
-        ,
-         "kay9tl"
-        ,
-         "واش كورونا قاتب"
-        ,
-         "مرضت بكورونا واش غنموت"
-        ,
-         "واش انموت ايلا مرضت بكورونا"
-        ,
-         "كقتل لكبار"
-        ,
-         "ka9tal lkbar"
-        ,
-         "kay9tal ghi sghar"
-        ,
-         "واش غنموت"
-        ,
-         "كورونا قاتل"
-        ,
-         "wach ghanmot"
-        ,
-         "mredt b corona wach ghanmot ?"
-        ,
-         "واش كورونا قاتل"
-        
-      ],
-      "responses": [
-         "يمكن أن يصاب الأطفال من جميع الأعمار بمرض فيروس كورونا 2019 (كوفيد 19). لكن أعراض معظم الأطفال المصابين لا تكون عادة بنفس حدة أعراض البالغين، وقد لا تَظهر على بعضهم أي أعراض على الإطلاق."
-        ,
-         "اه هاد المرض خطير اقدر ادي الموت الا تنجات عليه مضاعفات خطيرة"
-        ,
-         "تشير البحوث إلى أن احتمالات إصابة الأطفال والمراهقين بعدوى كوفيد-19 وإمكانية نشرهم للعدوى لا تختلف عن الفئات العمرية الأخرى."
-        ,
-         "نعم كرونا قاتل و لكن الاعمار بيد الله"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "dont_speak_arabe",
-      "patterns": [
-         "tu parle francais"
-        ,
-         "I don't speak arabic"
-        ,
-         "je parle pas l'arabe"
-        ,
-         "pouvez vous parler en francais"
-        ,
-         "can you speak english ?"
-        ,
-         "kathder b français"
-        ,
-         "do you speak english"
-        ,
-         "kathdri b anglais ?"
-        
-      ],
-      "responses": [
-         "Oui, je parle le Français et Anglais"
-        ,
-         "Yes i speak arabic english and fransh even the  Moroccan dialictic language Darija "
-        ,
-         "Oui bien sur je parle le Francais, Aglais, Arabe et Amazigh"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "how_are_you",
-      "patterns": [
-         "كيداير بخير ؟"
-        ,
-         "فين صافا"
-        ,
-         "لباس ؟"
-        ,
-         "كلشي هانية ؟"
-        ,
-         "cv alik"
-        ,
-         "labass elik"
-        ,
-         "nti bikhir"
-        ,
-         "ki dayra"
-        ,
-         "لباس عليك"
-        ,
-         "كي دايرا الاومور"
-        ,
-         "لاباس عليك"
-        ,
-         "Comment allez vouz ?"
-        
-      ],
-      "responses": [
-         "الحمد لله على كل حال، ربي يخليك"
-        ,
-         "هاحنا كنعديو الحمد الله و نت"
-        ,
-         " لباس الحمد لله و انت "
-        ,
-         "الحمد الله و انت"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "good_bye",
-      "patterns": [
-         "بسلامة بون كوراج"
-        ,
-         "باي باي"
-        ,
-         "bslama"
-        ,
-         "تهلاي فراسك"
-        ,
-         "bye"
-        ,
-         "beslama"
-        ,
-         "good bye"
-        ,
-         "تهلا"
-        ,
-         "نشوفوك"
-        ,
-         "بسلاما"
-        ,
-         "الى اللقاء"
-        ,
-         "مع السلامة"
-        ,
-         "طهلاي"
-        ,
-         "see you"
-        ,
-         "اكي عاون ربي بسلاما"
-        ,
-         "تهالا فراسك بسلامة"
-        ,
-         "وداعا"
-        ,
-         "see you later"
-        
-      ],
-      "responses": [
-         "تهلا فراسك"
-        ,
-         "الله اعاونك"
-        ,
-         "بسلامة"
-        ,
-         "الى اللقاء"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "personal_questions",
-      "patterns": [
-         "واش كين عندك شي مشكل؟"
-        ,
-         "شكون نتي؟"
-        ,
-         "wach darija b 7orof 3arabia ola 7orof faranssia"
-        ,
-         "شنو خدمتك"
-        ,
-         "كاندوي بالأمازيغية؟"
-        ,
-         "شنو سميتك"
-        ,
-         "اسمك"
-        ,
-         "اشنو خدماك"
-        ,
-         "أين تسكنين"
-        ,
-         "شنو هي الخدمة ديالك"
-        ,
-         "واش نتي ذكية؟"
-        ,
-         "باش ممكن تفيديني"
-        ,
-         "اه ، شنو الدور ديالك ؟"
-        ,
-         "شنو سميتك ؟"
-        ,
-         "Shkoun nta"
-        ,
-         "smitk"
-        ,
-         "اشنو متعرفي ديري"
-        ,
-         "chkon nta ?"
-        ,
-         "مالكي"
-        ,
-         "shkon nti"
-        ,
-         "بغيت نعرف شنو هاد النوع ديال الروبو لكايوجبنب"
-        
-      ],
-      "responses": [
-         "أنا شاطبوت،تم التصنيع ديالي من طرف طلبة مهندسين و الدور ديالي نجاوب على أي تساؤل عندو علاقة بكرونا، ويلا معرفتش دبا الجواب غنعرف من بعد و اجي سولني "
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_syndrome",
-      "patterns": [
-         "كيفاش نقدر نعرف فيا كورونا؟"
-        ,
-         "ما هي أعراض كورونا ؟"
-        ,
-         "ana wach fia corona"
-        ,
-         "bghite n3ref wach fia"
-        ,
-         "chnahoma al3rad dyal corona"
-        ,
-         "أعراض"
-        ,
-         "أعراض كورونا"
-        ,
-         "جاتني العطسة و الكحبة واش فيا كورونا ؟"
-        ,
-         "باش نعرف بلي فيا كورونا ؟"
-        ,
-         "شناهما الأعراض د كورونا ؟"
-        ,
-         "symptômes"
-        ,
-         "كيضرني راسي"
-        ,
-         "السخانة"
-        ,
-         "كنعطس بزاف"
-        ,
-         "فيا الكحبة بزاف"
-        ,
-         "شنو هي أعراض فيروس كورونا ؟"
-        ,
-         "قصدت شحال هي مدة حضانة الفيروس؟"
-        ,
-         "اعراض ديال كورونا"
-        ,
-         "الأعراض ديال كورونا"
-        ,
-         "شناهي أعراض كورونا؟"
-        ,
-         "Achnahouma l2a3rad t corona"
-        ,
-         "اشناهيا اعراض كورونا"
-        ,
-         "الأعراض"
-        ,
-         "ماهية أعراض فيروس كورونا"
-        
-      ],
-      "responses": [
-         "تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في ‏الحمى والإرهاق والسعال الجاف. وتشمل الأعراض ‏الأخرى الأقل شيوعاً ولكن قد يُصاب بها بعض ‏المرضى: الآلام والأوجاع، واحتقان الأنف، ‏والصداع، والتهاب الملتحمة، وألم الحلق، والإسهال، ‏وفقدان حاسة الذوق أو الشم، وظهور طفح جلدي ‏أو تغير لون أصابع اليدين أو القدمين. وعادة ما ‏تكون هذه الأعراض خفيفة وتبدأ بشكل تدريجي. ‏ويصاب بعض الناس بالعدوى دون أن يشعروا إلا ‏بأعراض خفيفة جداً."
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "give_opinion",
-      "patterns": [
-         "بانلي بلي"
-        ,
-         "banli bli"
-        ,
-         "ana banlya"
-        ,
-         "انا بان ليا"
-        ,
-         "انا بان ليا امريكا هيا لي متضررة بزاف حاليا"
-        ,
-         "امم انا فنظري"
-        
-      ],
-      "responses": [
-         "شكرا على رايك المحترم",
-         "كن غا كان كلشي بحالك كن راحنا بيخير"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "prediction",
-      "patterns": [
-         "شحال من المتوقع إوصل عدد الإصابات في المغرب"
-        ,
-         "توقعات"
-        ,
-         "prediction"
-        ,
-         "prevision"
-        ,
-         "شحال احتمال ديال الحياة ديال مريض بالكورونا"
-        ,
-         "شناهما توقاتك"
-        ,
-         "المستقبل"
-        ,
-         "شحال غتوصل"
-        ,
-         "3ndk chi prevision 3la corona ?"
-        
-      ],
-      "responses": [
-         "وي وي راني خدام عليه دبا على منقادو و عاود سولني نعطيك لاصق"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_protection",
-      "patterns": [
-         "كفاش نوقي راسي"
-        ,
-         "كفاش نقي راسي من كورونا"
-        ,
-         "chno khasni nakoul o la nchreb bach n7afd 3la rasi f had l2azma"
-        ,
-         "الإجرءات ليخصنا نديرو باش نحميو راسنا من كورونا"
-        ,
-         "باش نحميو راسنا من كورونا"
-        ,
-         "باش نحميو راسنا"
-        ,
-         "n7afed"
-        ,
-         "شنو هي الإجرءات ليخصنا نديرو باش نحميو راسنا من كورونا"
-        ,
-         "nw9i rassi"
-        ,
-         "kifash n9i rassi mn corona"
-        ,
-         "kifach nhmi rassi mn corona"
-        ,
-         "protection"
-        ,
-         "شنو ندير للوقاية من كورونا"
-        ,
-         "شنو هي الإجراءات لي خصنا نتبعو باش نحميو راسنا"
-        ,
-         "طرق الوقاية"
-        ,
-         "اشناهيا الإجراءات الوقائية من فيروس كورونا"
-        ,
-         "احتيطات اللازمة"
-        ,
-         "احتياط"
-        ,
-         "كيفاش ناخد إحتياط ديالي من كورونا"
-        ,
-         "الوقاية"
-        ,
-         "شنو الإجراءات اللازمة للوقاية"
-        ,
-         "شنو ندير باش نحمي راسي ؟"
-        ,
-         "الى حسيت براسي ماشي هو هداك شنو ندير ؟"
-        ,
-         "كيفاش نحميو راسنا"
-        ,
-         "واش مهم نبقاو في الدار"
-        ,
-         "تقدر تزيد شي نصائح للناس"
-        ,
-         "شنو خاص ندير باش مانمرضش"
-        ,
-         "الإجراءات لي خصنا نتبعو باش نحميو راسنا"
-        ,
-         "تقوليلي كي غندير نحمي راسي من كورونا"
-        ,
-         "مبغيتش نمرض"
-        ,
-         "كفاش نحمي راسي من كورونا"
-        ,
-         "kifash n7mi rassi mn corona"
-        ,
-         "كفاش نقدري نوقي راسي ؟"
-        ,
-         "شنو الحل في نظرك باش نغلبو كورونا؟"
-        
-      ],
-      "responses": [
-         " الحرص على ممارسة نظافة اليدين والجهاز التنفسي مهمة في جميع الأوقات وهي أفضل طريقة لحماية نفسك والآخرين."
-        ,
-         "حافظ على مسافة متر واحد على الأقل (3 أقدام) بينك وبين الآخرين عند الإمكان. وهي مسألة مهمة بشكل خاص إذا كنت تقف قرب شخص يسعل أو يعطس. وبما أن بعض الأشخاص المصابين بالعدوى قد لا تظهر عليهم الأعراض بعد أو لديهم أعراض خفيفة فقط، فإن الحفاظ على مسافة متباعدة عن الجميع هو فكرة جيدة إذا كنت في منطقة يسري فيها مرض كوفيد-19."
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "greeting",
-      "patterns": [
-         "سلام"
-        ,
-         "السلام"
-        ,
-         "feen"
-        ,
-         "hello"
-        ,
-         "صباح الخير"
-        ,
-         "عشيرتي"
-        ,
-         "سلان"
-        ,
-         "what is your name"
-        ,
-         "ازول"
-        ,
-         "فين البوت"
-        ,
-         "عشيري"
-        ,
-         "واش اخاي"
-        ,
-         "wash"
-        ,
-         "pss pss"
-        ,
-         "hey"
-        ,
-         "صباح النور"
-        ,
-         "hola"
-        ,
-         "fiin"
-        ,
-         "bsr"
-        ,
-         "bonsoir"
-        ,
-         "salut"
-        ,
-         "afin"
-        ,
-         "salam"
-        ,
-         "slm"
-        ,
-         "hi"
-        ,
-         "cc"
-        ,
-         "وا فين"
-        ,
-         "مرحبا"
-        ,
-         "slt"
-        ,
-         "bjr"
-        ,
-         "bonjour"
-        ,
-         "سلم"
-        
-      ],
-      "responses": [
-         "عليكم السلام كيف يمكنني مساعدتك"
-        ,
-         "أهلان أهلان لباس عليك؟"
-        ,
-         "سلااام، كي داير بيخير؟"
-        ,
-         "أهلان"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "haha",
-      "patterns": [
-         "hhhhhhhhhh"
-        ,
-         "hahahhahahahhahahaha"
-        ,
-         "هيهيهيهيهيهيههيهيهي"
-        ,
-         "hhhhhhhhhhhhhhh"
-        ,
-         "da7aktini"
-        ,
-         "dhaktini"
-        ,
-         "هههههههههههههههههههه"
-        ,
-         "هاهاهاهااهاهاهاها"
-        ,
-         "hhhghgghhhhhhhghhh"
-        ,
-         "dahaktini"
-        ,
-         "ضحكتيني"
-        ,
-         "hhhhhhhhhhhhhhhhhhhghg"
-        
-      ],
-      "responses": [
-         "نورتيني بضحكتك هه"
-        ,
-         "هههههه و نعم"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "creator",
-      "patterns": [
-         "شكون صايبك"
-        ,
-         "chkun dark"
-        ,
-         "chkon saybk"
-        ,
-         "chkon san3ak"
-        ,
-         "chkon li saybak"
-        ,
-         "شكون صنعك"
-        ,
-         "شكون خلقك فالوجود"
-        ,
-         "شكون لي دارك"
-        ,
-         "chkon li dark"
-        ,
-         "شكون اخترعك"
-        
-      ],
-      "responses": [
-         "je suis un chat Bot réalisé par  des eleveس ingénieurs dans le cadre de leurs stage d'ingénieur"
-        ,
-         "طلبة مهندسين بالمدرسة العليا لأساتذة التعليم التقني العالي بالمحمدية"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "angry",
-      "patterns": [
-         "جاوبني اسي"
-        ,
-         "واش نمشي فحالي؟"
-        ,
-         "مرضتيني"
-        ,
-         "ياخي مكتفهم والو اسي شاتبوت"
-        ,
-         "vu"
-        ,
-         "wliti katkhali vu"
-        ,
-         "khliti vue"
-        ,
-         "عارف الخير لي تندير متبقاش تشكريني"
-        ,
-         "جاوبني"
-        ,
-         "عصبتيني"
-        ,
-         "وا راه سولتك"
-        ,
-         "طلعتلي فراسي"
-        ,
-         "عصبتينا"
-        ,
-         "سيري فحالك"
-        
-      ],
-      "responses": [
-         "مديرهاش مني قلت الصواب"
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_history",
-      "patterns": [
-         "امتى بدأت كورونا"
-        ,
-         "وقتاش بانت كورونا"
-        ,
-         "فين بانت كورونا"
-        ,
-         "كيفاش بدات كورونا"
-        ,
-         "كينتاشر بسرعة"
-        ,
-         "علاش كورونا سريع الانتشار"
-        ,
-         "سريع الانتشار"
-        ,
-         "واش كورونا خطير"
-        ,
-         "ما هي كورونا"
-        ,
-         "شناهيا كورونا"
-        ,
-         "شنو كتعني كورونا"
-        ,
-         "كورونا شنو كتعني"
-        ,
-         "wach corona kat9toul"
-        ,
-         "acha hya corona ?"
-        ,
-         "اشهيا كورونا ؟"
-        ,
-         "شو هي كورونا"
-        ,
-         "ach hya"
-        ,
-         "الفيروس مؤامرة"
-        ,
-         "كورونا"
-        ,
-         "fin bda had lviruse"
-        ,
-         "اه تقدري تعطيني معلومات كتر على كورونا"
-        ,
-         "كوروونا"
-        ,
-         "korona"
-        ,
-         "cirona"
-        ,
-         "اهاه واش كورونا يمكن اتنتاشر واخا يموت الانسان"
-        ,
-         "لموهيم الصراحة تقدري تشرحيلي شنو السبب ديال هاد"
-        ,
-         "أش ناهية التركيبة الجينية ديال الفيروس كورونا"
-        ,
-         "شناهي كرونا"
-        ,
-         "مايغان كورونا"
-        ,
-         "ما هو فيروش كورونا"
-        ,
-         "شنو هو فيروس كورونا"
-        ,
-         "شنو هو كورونا"
-        ,
-         "بدات فيها كورونا"
-        ,
-         "شناهيا الدولة لي بدات فيها كورونا"
-        ,
-         "أين ظهرت كورونا"
-        ,
-         "corona"
-        ,
-         "هل هذا الفيروس عبارة عن مؤامرة"
-        ,
-         "واش يمكن ل كورونا ينتاشر فالهواء"
-        ,
-         "واش كورونا ناتج عن حرب بيولوجية"
-        ,
-         "واش كورونا مصاوبة في معمل؟"
-        ,
-         "شنو كاتعرف على كورونا"
-        ,
-         "شناهيا كورونا؟"
-        ,
-         "علاش كورونا خطير ؟"
-        ,
-         "كتعرفي فيروس كورونا"
-        ,
-         "Maydigan corona"
-        ,
-         "chno hya corona"
-        ,
-         "متسنت فكورونا"
-        ,
-         "اوا قولي ليا دابا نوع فيروس كرونا"
-        ,
-         "كايقولو بلي الناس لي عندهم فصيلة الدم o مكايتصابوش بالفيروس"
-        
-      ],
-      "responses": [
-         "فشّى المرض للمرة الأولى في مدينة ووهان الصينية في أوائل شهر ديسمبر عام 2019."
-        ,
-         "مرض كوفيد-19 هو مرض معد يسببه آخر فيروس تم اكتشافه من سلالة فيروسات كورونا. ولم يكن هناك أي علم بوجود هذا الفيروس الجديد ومرضه قبل بدء تفشيه في مدينة ووهان الصينية في كانون الأول/ ديسمبر 2019. وقد تحوّل كوفيد-19 الآن إلى جائحة تؤثر على العديد من بلدان العالم."
-        ,
-         "corona tga yan lmarad ich9an iteltaten dseg yan ar waya iga seg solala n virossat n corona"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "what_to_ask",
-      "patterns": [
-         "علاش نقدر نسولك"
-        ,
-         "شنو كتعرفي"
-        ,
-         "3lach"
-        ,
-         "3lash n9der nsswlk"
-        ,
-         "pourquoi ?"
-        ,
-         "chno n9der nsswlk ?"
-        ,
-         "why ?"
-        ,
-         "لا قلت ليك علاش بغيتي سميتي"
-        ,
-         "علاش نسولك ؟"
-        ,
-         "قلت ليك علاش بغيتي سميتي"
-        
-      ],
-      "responses": [
-         "تقدر تسولني على أي حاجة متعلقة بفيروس كورونا :الاحصائيات ,مستجدات,و معلومات عامة عن فيروس كورونا"
-        ,
-         "je peux te donner des informations à propos de corona virus"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "refuse_to_answer",
-      "patterns": [
-         "لا"
-        ,
-         "لا مغانسولكش"
-        ,
-         "علاش بغيتي تعرفي سميتي"
-        ,
-         "لا صافي"
-        ,
-         "مباغاش"
-        ,
-         "لائح"
-        ,
-         "مبغيتش"
-        ,
-         "لا مبغيتش"
-        ,
-         "منقدرش"
-        ,
-         "Non"
-        ,
-         "nn"
-        ,
-         "Nope"
-        ,
-         "sme7li man9derch"
-        ,
-         "la man9derch"
-        ,
-         "la"
-        ,
-         "no"
-        ,
-         "ma3andi bach n3wnk ri ser"
-        ,
-         "ماشي شغلك"
-        ,
-         "لا قلت ليك علاش بغيتي سميتي"
-        ,
-         "ماعنديش سمية"
-        ,
-         "ماشي سوقك"
-        ,
-         "ohoo"
-        ,
-         "noo"
-        
-      ],
-      "responses": [
-         "هانية ماشي مشكل"
-        ,
-         "على خاطرك"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_cas_number",
-      "patterns": [
-         "شحال من واحد مات بيه"
-        ,
-         "شحال كاينا من حالة دابا"
-        ,
-         "شحال وصلو اليوما"
-        ,
-         "شحال عدد الاصابات دابا"
-        ,
-         "chhal mn cas f lmghriib"
-        ,
-         "Shhal men wahd fih corona"
-        ,
-         "شحال وصلنا"
-        ,
-         "chhal wssalna"
-        ,
-         "عدد الحالات"
-        ,
-         "عدد حالات كورونا"
-        ,
-         "شحال وصلنا دبا"
-        ,
-         "كم عدد حالات كورونا ؟"
-        ,
-         "شحال أك اوضنت الحالات ن كورونا ݣتمازيرت ؟"
-        ,
-         "عدد الحالات اليوم"
-        ,
-         "شحال دبا"
-        ,
-         "nombre de cas"
-        ,
-         "شحال ديال الناس مات"
-        ,
-         "شحال وصلنا ليوم"
-        ,
-         "شحال مات"
-        ,
-         "شحال ديال الناس ماتو"
-        ,
-         "قلت لك أنا بغيت غير عدد الضحايا في المغرب"
-        ,
-         "شحال عدد الضحايا فالمغرب"
-        ,
-         "شحال الحلات فالمغرب"
-        ,
-         "شحال عدد الحالات للي كاينا دابا فالمغرب"
-        ,
-         "Ch7al imothen s corona"
-        ,
-         "شحال عدد حالات الإصابة فالمغرب لحد الأن ؟"
-        ,
-         "ممكن تعطيني عدد الضحايا ديال فيروس كورونا بالمغرب"
-        ,
-         "شحال من حالة كاينة فالعالم"
-        ,
-         "شحال كاين ف طاليان"
-        ,
-         "شحال من حاة جديدة فيها كورونا"
-        ,
-         "شحال العدد المصابين"
-        ,
-         "على الاحصائيات"
-        ,
-         "l7alat f lmghrib"
-        ,
-         "ممكن تعطيني الجديد على الحالة الوبائية فالمغرب ؟"
-        ,
-         "شحال من حالة د كورونا ليوم ؟"
-        ,
-         "شحال الحالات د كورونا فالمغرب دبا ؟"
-        ,
-         "عدد الاشخاص المصابين"
-        ,
-         "شحال وصلنا من حالة"
-        ,
-         "Ch7ar imothen s cCh7al mato lyoumorona"
-        ,
-         "شحال عدد المصابين في المغرب"
-        ,
-         "شحال من اصابة كاينة فالمغريب؟"
-        
-      ],
-      "responses": [
-         "cas de corona : 423,214, Nombre de guérisons: 385,895 , Nombre de décis : 7,086  "
-        ,
-         "الاصبات:423,214 ,الشفاء:385,895 ,الاموات:7,086"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_recovered",
-      "patterns": [
-         "لي تشافاو بالمغرب"
-        ,
-         "شحال هي نسبة الشفاء من كورونا"
-        ,
-         "عدد المتشافون بالمغرب"
-        ,
-         "عدد المتشافين"
-        ,
-         "عدد المتشافون"
-        ,
-         "تمثل للشفاء"
-        ,
-         "الشفاء"
-        ,
-         "شحال من واحد تشافا"
-        ,
-         "واش نتائج مزيان"
-        
-      ],
-      "responses": [
-         "عدد الناس لي تشافاو لحد الان 400,895 "
-        ,
-         "الشفاء:400,895"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "corona_solutions",
-      "patterns": [
-         "واش ممكن نلقاو شي لقاح لفيروس كورونا فهاد الأيام لي جاية ؟"
-        ,
-         "علاج"
-        ,
-         "دواء"
-        ,
-         "انا فيا كورونا شنو ندير"
-        ,
-         "علاش مازال مالقاوش الدوا ؟"
-        ,
-         "لقاح"
-        ,
-         "واش كاين دواء كورونا"
-        ,
-         "واش ممكن نتعالجو من كورونا؟"
-        
-      ],
-      "responses": [
-         "المغرب عقد شراكة مع شركة (سينوفارم) الصينية، بفعل النتائج الإيجابية التي أثمرتها التجارب الأولية، ثم شارك في مرحلة التجارب السريرية حتى يعرف آثار اللقاح على جينات المغاربة، وأكد أن الاختبارات أعطت نتائج إيجابية"
-        ,
-         "لمغرب يستعد لمباشرة حملة التطعيم ضد كورونا خلال الأيام المقبلة، منوعا مصادر اللقاحات، كما تقول وسائل إعلام محلية، وعدم الاكتفاء بنوع واحد."
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "accept_to_answer",
-      "patterns": [
-         "واخا صافي"
-        ,
-         "وراه تنشولك"
-        ,
-         "d'acc"
-        ,
-         "اه واخا"
-        ,
-         "صافي مشات"
-        ,
-         "مشات"
-        ,
-         "واخا هانا مسولك"
-        ,
-         "إيوا نسولوا عوتاني مافيها باس"
-        ,
-         "اه"
-        ,
-         "اه مرحبا"
-        ,
-         "oui"
-        ,
-         "ok"
-        ,
-         "d'accord"
-        ,
-         "pq pas"
-        ,
-         "dacc"
-        ,
-         "ahah"
-        ,
-         "ui"
-        ,
-         "pourquoi pas"
-        ,
-         "why not"
-        ,
-         "3lash la"
-        ,
-         "اوكي"
-        ,
-         "واخا صافي مشات"
-        
-      ],
-      "responses": [
-         "لعز"
-        ,
-         "شكرا ليك"
-        ,
-         "لهلا يخطيك"
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "museau",
-      "patterns": [
-         "علاش خاص نديرو الكمامات"
-        ,
-         "Masque"
-        ,
-         "Museau"
-        ,
-         "kindir lbass kmama"
-        ,
-         "واش ضروري الكمامة ؟"
-        ,
-         "واش ضروري خاصني نستعمل الكمامة؟"
-        ,
-         "علاش لبس كمامة"
-        ,
-         "kifash ndir kmama"
-        ,
-         "kemama"
-        ,
-         "كفاش ندير نلبس كمامة"
-        ,
-         "bavette"
-        ,
-         "kmama"
-        ,
-         "kmama kindir lbasha"
-        ,
-         "ندير كمامة"
-        
-      ],
-      "responses": [
-         "يوصى بارتداء الكمامات الطبية أساساً في مرافق الرعاية الصحية، ولكن يمكن النظر في استخدامها في ظروف أخرى أيضا . وينبغي أن يقترن استخدام الكمامات الطبية بالتدابير الرئيسية الأخرى للوقاية من العدوى ومكافحتها، مثل نظافة اليدين والتباعد الجسدي."
-        
-      ],
-      "contexts": []
-    },
-    {
-      "tag": "quarantine",
-      "patterns": [
-         "إمتا غايسالي هدشي"
-        ,
-         "هل سنعود لحياتنا الطبيعية"
-        ,
-         "واش نقدر نخرج من الدار"
-        ,
-         "واش غانخرجو في 20 ابريل؟"
-        ,
-         "وقتاش غايسالي الحجر الصحي"
-        ,
-         "Fu9ash issali lhajr sihi"
-        ,
-         "Fu9ash issali lhajr sihhi"
-        ,
-         "بغيت نخرج من الدار"
-        ,
-         "إمتا غايسالي الحجر الصحي"
-        ,
-         "ماغانخرجوش ف 20 ابريل"
-        ,
-         "واش غادي يزيد يتمدد الحجر الصحي"
-        ,
-         "7ajr"
-        ,
-         "quarantine"
-        ,
-         "الحجر"
-        ,
-         "ماغانخرجوش ف 20 ابريل غير تهناي"
-        ,
-         "ما هي عقوبة مخالف الحجر الصحي؟"
-        ,
-         "confinement"
-        
-      ],
-      "responses": [
-         "الحجر الصحي. يعني فصل فئة من الناس عن الآخرين وتقييد حركة الأشخاص الذين تعرضوا أو ربما قد تعرضوا للمرض حتى تتسنى مراقبتهم للتحقق من إصابتهم بالمرض.الحجر الصحي. يعني فصل فئة من الناس عن الآخرين وتقييد حركة الأشخاص الذين تعرضوا أو ربما قد تعرضوا للمرض حتى تتسنى مراقبتهم للتحقق من إصابتهم بالمرض."
-        ,
-         "أعلنت الحكومة المغربية تخفيف إجراءات الحجر الصحي المفروض على البلاد منذ شهر مارس الماضي لمواجهة وباء فيروس كورونا"
-        
-      ],
-      "contexts": []
-    }
-  ]
+	"intents": [{
+			"tag": "email zaydi",
+			"patterns": [
+				"adresse zaydi",
+				"mail zaydi"
+			],
+			"responses": [
+				"zaydi.hayat@gmail.com",
+				"zaydi@enim.ac.ma"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "email lazraq",
+			"patterns": [
+				"adresse lazraq",
+				"mail lazraq"
+
+			],
+			"responses": [
+				"tplazraq@gmail.com",
+				"lazraq@enim.ac.ma"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "email tikito",
+			"patterns": [
+				"adresse tikito",
+				"mail tikito"
+
+			],
+			"responses": [
+
+
+				"tikito@enim.ac.ma"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "email lebbar",
+			"patterns": [
+				"adresse lebbar",
+				"mail lebbar"
+
+			],
+			"responses": [
+
+				"lebbar@enim.ac.ma"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "email lazaar",
+			"patterns": [
+				"adresse lazaar",
+				"mail lazaar"
+			],
+			"responses": [
+				"mohamed.lazaar@um5.ac.ma"
+			],
+			"contexts": []
+		},
+		{
+			"tag": "email assoul",
+			"patterns": [
+				"adresse assoul",
+				"mail assoul"
+			],
+			"responses": [
+				"assoul@enim.ac.ma"
+			],
+			"contexts": []
+		},
+		{
+			"tag": "deadline projet BPM",
+			"patterns": [
+				"date BPM",
+				"deadline BPM",
+				"délai BPM"
+
+			],
+			"responses": [
+				"le délai du rapport est le 6/02/2021 a midi, la soutenance du projet sera le 09/02/2021"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "deadline projet IA",
+			"patterns": [
+				"date IA",
+				"deadline intelligence artificielle",
+				"projet IA",
+				"délai IA"
+
+			],
+			"responses": [
+				"le 20/02/2021 a minuit, le livrable est sous forme d'un rapport, vidéo et code à faire en groupe de 4/5"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "deadline projet muticritères",
+			"patterns": [
+				"date ADMC",
+				"deadline ADMC",
+				"date multicritères"
+
+			],
+			"responses": [
+				"le 19/02/2021 a minuit, il faut envoyer une video de la présentation, a faire en groupe de 4/5"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "deadline projet AMOA",
+			"patterns": [
+				"date AMOA",
+				"deadline AMOA"
+
+
+			],
+			"responses": [
+				"le 19/02/2021 a minuit, le livrable est sous forme d'un rapport à effectuer en binome"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "deadline projet BI",
+			"patterns": [
+				"date BI",
+				"deadline BI",
+				"délai BI"
+
+
+			],
+			"responses": [
+				"le 21/02/2021 a minuit, le livrable est sous forme d'un rapport à effectuer en groupe de 4/5"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "deadline projet ERP",
+			"patterns": [
+				"date ERP",
+				"deadline ERP"
+
+
+			],
+			"responses": [
+				"le 16/02/2021 a 10h, le livrable est sous forme d'une présentation à effectuer en groupe de 3/4"
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient ERP",
+			"patterns": [
+				"coeff ERP",
+				"coefficient ERP"
+			],
+			"responses": [
+				"le coefficient de ERP est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient BPM",
+			"patterns": [
+				"coeff BPM",
+				"coefficient BPM"
+			],
+			"responses": [
+				"le coefficient de BPM est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient sécurité",
+			"patterns": [
+				"coeff sécurité",
+				"coefficient securite"
+			],
+			"responses": [
+				"le coefficient de sécurité informatique est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient conduite de projet",
+			"patterns": [
+				"coeff conduite de projet",
+				"coefficient conduite de projet"
+			],
+			"responses": [
+				"le coefficient de conduite de projet est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient SCM",
+			"patterns": [
+				"coeff SCM",
+				"coefficient supply chain",
+				"coeff supply chain",
+				"coefficient SCM"
+			],
+			"responses": [
+				"le coefficient de SCM est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient DBA2",
+			"patterns": [
+				"coeff DBA",
+				"coefficient oracle",
+				"coefficient administration des bases de données",
+				"coeff admin bdd 2",
+				"coeff DBA2"
+			],
+			"responses": [
+				"le coefficient d'Administration des bases de données II est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient BI",
+			"patterns": [
+				"coeff BI",
+				"coefficient business intelligence",
+				"coeff business intelligence",
+				"coefficient BI"
+			],
+			"responses": [
+				"le coefficient de BI est 3.4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient IA",
+			"patterns": [
+				"coeff IA",
+				"coefficient intelligence artificielle",
+				"coeff intelligence artificielle",
+				"coefficient IA"
+			],
+			"responses": [
+				"le coefficient de ERP est 2.8."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient Projet 2",
+			"patterns": [
+				"coeff projet 2",
+
+				"coefficient projet 2"
+			],
+			"responses": [
+				"le coefficient de projet 2 est 2.8."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient AdminReseau",
+			"patterns": [
+				"coeff reseau",
+				"coefficient administration des réseaux",
+				"coeff administration reseau",
+				"coefficient reseau"
+			],
+			"responses": [
+				"le coefficient de ERP est 2.8."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient big data",
+			"patterns": [
+				"coeff big data",
+				"coefficient big data"
+
+			],
+			"responses": [
+				"le coefficient de big data est 2.8."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient arabe",
+			"patterns": [
+				"coeff arabe",
+				"coefficient arabe"
+
+			],
+			"responses": [
+				"le coefficient de la culture arabe est 2."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient tec",
+			"patterns": [
+				"coeff tec",
+				"coefficient tec"
+
+			],
+			"responses": [
+				"le coefficient de tec est 4."
+
+			],
+			"contexts": []
+		},
+		{
+			"tag": "coefficient OSQ",
+			"patterns": [
+				"coeff osq",
+				"coefficient osq"
+
+			],
+			"responses": [
+				"le coefficient de OSQ est 4.2."
+			],
+			"contexts": []
+		},
+		{
+			"tag": "exam IA",
+			"patterns": [
+				"exam ia",
+				"exam intelligence artificielle"
+
+			],
+			"responses": [
+				"la date de l'examen d'intelligence artificielle est le 13/02/2021 à 11h, il sera sous forme d'un QCM sur Evalbox"
+			],
+			"contexts": []
+		},
+		{
+			"tag": "exam BI",
+			"patterns": [
+				"exam BI",
+				"exam business intelligence"
+
+			],
+			"responses": [
+				"la date de l'examen de business intelligence est le 10/02/2021 à 9h, il sera sous forme d'un QCM sur Classroom"
+			],
+			"contexts": []
+		},
+		{
+			"tag": "exam big data",
+			"patterns": [
+				"exam big data",
+				"exam big data"
+			],
+			"responses": [
+				"la date de l'examen de big data est le 12/02/2021 à 9h, il sera sous forme d'un QCM sur Classroom"
+			],
+			"contexts": []
+		},
+		{
+			"tag": "exam ERP",
+			"patterns": [
+				"exam erp",
+				"exam erp"
+
+			],
+			"responses": [
+				"la date de l'examen d'ERP est le 05/02/2021 à 9h, il sera sous forme d'un QCM sur Classroom"
+			],
+			"contexts": []
+		},
+		{
+			"tag": "exam OSQ",
+			"patterns": [
+				"exam OSQ",
+				"exam OSQ"
+
+
+			],
+			"responses": [
+				"la date de l'examen d'outils statistiques de la qualité est le 10/02/2021, il sera sous forme d'un QCM sur Evalbox"
+			],
+			"contexts": []
+		}
+
+
+	]
 }
